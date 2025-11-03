@@ -239,7 +239,7 @@ void assert_failed(uint8_t *file, uint32_t line)
 
 ## Output screen shots of proteus  :
 ### FOR PULSE AT 25%
-<img width="1379" height="875" alt="500" src="https://github.com/user-attachments/assets/6e6dcca1-e147-400b-8353-e228300e6f70" />
+<img width="1378" height="870" alt="Screenshot 2025-11-03 141559" src="https://github.com/user-attachments/assets/6ee5eeea-f066-4554-a4a1-8f8821d062ef" />
 
 ### FOR PULSE AT 50%
 <img width="1376" height="874" alt="50" src="https://github.com/user-attachments/assets/1282147b-89bc-4286-91ba-97745209dd64" />
