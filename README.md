@@ -256,30 +256,31 @@ void assert_failed(uint8_t *file, uint32_t line)
 
 ## DUTY CYCLE AND FREQUENCY CALCULATION 
 FOR PULSE AT 25%
+```
 
 TON = 3 x 0.21 ms = 0.63 ms
 TOFF= 9 x 0.21 ms = 1.89 ms
 TOTAL TIME = 12 x 0.21 = 2.52 ms
 DUTY RATIO = TON/(TOTAL TIME) = 0.63/2.52 = 0.25 == 25%
 FREQUENCY = 1/(TOTAL TIME) = 1/2.52 = 0.396 
-
+```
 
 FOR PULSE AT 50%
-
+```
 TON =  6 x 0.21 ms = 1.26 ms
 TOFF=  6 x 0.21 ms = 1.26 ms
 TOTAL TIME = 12 x 0.21 ms = 2.52 ms
 DUTY RATIO = TON/(TOTAL TIME) = 1.26/2.52 = 0.5 == 50%
 FREQUENCY = 1/(TOTAL TIME) = 1/2.52 = 0.396
-
+```
 FOR PULSE AT 80%
-
+```
 TON = 9.5 x 0.21 ms = 1.995 ms
 TOFF= 2.5 x 0.21 ms = 0.525 ms
 TOTAL TIME = 12 x 0.21 ms = 2.52 ms
 DUTY RATIO = TON/(TOTAL TIME) = 1.995/2.52 = 0.8 == 80%
 FREQUENCY = 1/(TOTAL TIME) = 1/2.52 = 0.396
-
+```
 
 ## Result :
 A PWM Signal is generated using the following frequency and various duty cycles are simulated 
